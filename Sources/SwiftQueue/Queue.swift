@@ -16,6 +16,11 @@ public class Queue<T>
     
     private var lock = DispatchGroup.init()
     
+    public init()
+    {
+        //
+    }
+    
     public func enqueue(_ element: T)
     {
         lock.enter()
