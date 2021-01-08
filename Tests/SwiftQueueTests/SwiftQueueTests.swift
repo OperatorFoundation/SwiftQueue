@@ -6,7 +6,7 @@ final class SwiftQueueTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(SwiftQueue().text, "Hello, World!")
+        //XCTAssertEqual(SwiftQueue().text, "Hello, World!")
     }
 
 
